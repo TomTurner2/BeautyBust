@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Bum Blast Routine"
+date:   2023-07-08 16:02:50 +0100
+categories: fitness
+permalink: /bumblast/
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yV7fDgNlYKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
