@@ -1,81 +1,10 @@
 <style>
-@media only screen and (max-width: 600px) {
     .topnav {
-        overflow: hidden;
-        background-color: #333;
+        
+        background-color: #000000;
         position: relative;
     }
-
-    /* Hide the links inside the navigation menu (except for logo/home) */
-    .topnav #navLinks {
-        display: none;
-    }
-
-    /* Style navigation menu links */
-    .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-    }
-
-    /* Style the hamburger menu */
-    .topnav a.icon {
-        background: black;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 22px;
-    }
-
-    /* Add a grey background color on mouse-over */
-    .topnav a:hover {
-        background-color: #292929;
-        color: rgb(255, 255, 255);
-    }
-
-    /* Style the active link (or home/logo) */
-    .active {
-        background-color: #000000;
-    }
-
-    .home
-    {
-        background-color: #000000;
-        color: white;
-        font-family: 'Playfair Display', serif;
-        font-style: italic;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .topnav {
-    overflow: hidden;
-    background-color: #000000;
-    position: relative;
-    }
-
-    /* Style navigation menu links */
-    .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
-
-    .topnav #navLinks {
-        float: right;
-        padding: 16px;
-        display: inline;
-    }
-
-    /* Style the hamburger menu */
-    .topnav a.icon {
-        display: none;
-    }
-
+  
     /* Add a grey background color on mouse-over */
     .topnav a:hover {
         background-color: #000000;
@@ -87,13 +16,93 @@
         background-color: #000000;
     }
 
-    .home
+    .topnav a.home
     {
         float: left;
         background-color: #000000;
         color: white;
         font-family: 'Playfair Display', serif;
         font-style: italic;
+        text-decoration: none;
+        font-size: 24px;
+        display: inline-block;
+        max-height: 50%;
+        padding: 15px 20px;
+        padding-left: 0;
+    }
+
+    .logo
+    {
+        float: left;
+        background-color: #000000;
+        padding: 16px 16px;
+        width:34px;
+        height:34px;
+    }
+
+
+@media only screen and (max-width: 600px) 
+{
+    .topnav
+    {
+        overflow: hidden;
+    }
+     /* Style navigation menu links */
+    .topnav a 
+    {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #navLinks 
+    {
+        display: none;
+    }
+   
+    /* Style the hamburger menu */
+    .topnav a.icon 
+    {
+        background: black;
+        float: right;
+        max-height: 50%;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 600px) 
+{
+    .topnav
+    {
+        overflow: auto;
+    }
+
+    /* Style navigation menu links */
+    .topnav a 
+    {
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 17px;
+        max-height: 50%;
+        display: inline-block;
+    }
+
+    /* show links in a line */
+    .topnav #navLinks 
+    {
+        float: right;
+        padding: 14px 0px;
+        display: inline;
+    }
+
+    /* hide the hamburger menu */
+    .topnav a.icon 
+    {
+        display: none;
     }
 }
 </style>
@@ -102,7 +111,8 @@
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <header>
     <div class="topnav">
-        <a href="/index.html" class="home"> | {{site.title}}</a>
+        <img class="logo" src="/assets/logo.svg" alt="Beauty Bust Logo">
+        <a href="/index.html" class="home">| {{site.title}}</a>
         <div id="navLinks">
             {% for page in site.pages %}
                 {% if page.navbar == true %}
@@ -115,8 +125,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 </header>
 
 <script>
-    function showDropDown() {
-
+    function showDropDown() 
+    {
         var desktop = window.matchMedia("screen and (min-width: 600px)")
         if (desktop.matches) { return; }
 
@@ -130,16 +140,4 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 
         links.style.display = "block";
     }
-
-    $(window).resize(function() 
-    {
-        var desktop = window.matchMedia("screen and (min-width: 600px)")
-        var links = document.getElementById("navLinks");
-
-        if (desktop.matches)
-        {
-            links.style.display = "inline";
-        }
-    });
-    
 </script>
