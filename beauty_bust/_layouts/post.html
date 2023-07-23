@@ -78,7 +78,7 @@
     }
 
     /* Hide the links inside the navigation menu (except for logo/home) */
-    .topnav #myLinks {
+    .topnav #navLinks {
         display: none;
     }
 
@@ -136,9 +136,10 @@
         font-size: 17px;
     }
 
-    .topnav #myLinks {
+    .topnav #navLinks {
         float: right;
         padding: 16px;
+        display: inline;
     }
 
     /* Style the hamburger menu */
@@ -172,22 +173,19 @@
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <header>
     <div class="topnav">
-        <a href="#home" class="home">Beauty Bust</a>
-        <!-- Navigation links (hidden by default) -->
-        <div id="myLinks">
+        <a href="#home" class="home"> | {{site.title}}</a>
+        <div id="navLinks">
             {% for page in site.pages %}
                 {% if page.navbar == true %}
-                        <a href="{{ page.url }}">{{ page.title }}</a>
+                        <a href="{{ page.url }}">{{ page.title | upcase}}</a>
                 {% endif %}
             {% endfor %}
         </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="fa fa-bars icon active" aria-hidden="true" onclick="myFunction()"></a>
+        <a href="javascript:void(0);" class="fa fa-bars icon active" aria-hidden="true" onclick="showDropDown()"></a>
       </div>
 </header>
 
 <div class="container">
-    
     <main>
         {{content}}
     </main>
@@ -201,13 +199,31 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 </div>
 
 <script>
-    function myFunction() {
-        var x = document.getElementById("myLinks");
+    function showDropDown() {
 
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
+        var desktop = window.matchMedia("screen and (min-width: 600px)")
+        if (desktop.matches) { return; }
+
+        var links = document.getElementById("navLinks");
+
+        if (links.style.display != "none") 
+        {
+            links.style.display = "none";
+            return;
+        } 
+
+        links.style.display = "block";
+    }
+
+    $(window).resize(function() 
+    {
+        var desktop = window.matchMedia("screen and (min-width: 600px)")
+        var links = document.getElementById("navLinks");
+
+        if (desktop.matches)
+        {
+            links.style.display = "inline";
         }
-    } 
+    });
+    
 </script>
