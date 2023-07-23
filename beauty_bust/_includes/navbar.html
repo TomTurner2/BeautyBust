@@ -159,19 +159,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 
     function reset()
     {
+        var links = document.getElementById("navLinks");
         if (window.screen.width >= 750) 
         { 
             links.style.display = "inline"
             return; 
         }
 
-        var links = document.getElementById("navLinks");
-
-        if (links.style.display != "none") 
-        {
-            links.style.display = "none";
-            return;
-        } 
+        links.style.display = "none";
     }
 
     window.addEventListener("resize", reset);

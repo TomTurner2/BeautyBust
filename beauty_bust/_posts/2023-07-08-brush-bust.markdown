@@ -4,7 +4,7 @@ title:  "Brush Bust 2023"
 date:   2023-07-08 16:02:50 +0100
 categories: beauty
 permalink: /brushbust/
-image: brushes.jpg
+image: mary-brush.jpg
 ---
 
 ## Introduction
