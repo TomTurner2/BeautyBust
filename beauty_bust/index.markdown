@@ -11,9 +11,6 @@ carousels:
     - image: https://i0.wp.com/picjumbo.com/wp-content/uploads/woman-exercises-with-dumbbells-on-yoga-fitness-mat-free-photo.jpg?w=600&quality=80
 ---
 
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
-
-
 <ul>
 {% for post in site.posts %}
     <li><a href="{{post.url}}">{{post.title}}</a></li>
