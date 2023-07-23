@@ -4,6 +4,7 @@
 {% include style.html %}
 {% include navbar.html %}
 
+<img src="/assets/img/{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" title="{{ post.title }}" style="max-height: 420px;">
 <div class="container">
     <main>
         {{content}}
