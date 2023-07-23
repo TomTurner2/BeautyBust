@@ -1,6 +1,10 @@
+<head>
+    <link rel="shortcut icon" href="#">
+</head>
+
 <style>
-    .topnav {
-        
+    .topnav 
+    {
         background-color: #000000;
         position: relative;
     }
@@ -19,7 +23,7 @@
     .topnav a.home
     {
         float: left;
-        background-color: #000000;
+        background-color: #00000000;
         color: white;
         font-family: 'Playfair Display', serif;
         font-style: italic;
@@ -34,7 +38,7 @@
     .logo
     {
         float: left;
-        background-color: #000000;
+        background-color: #00000000;
         padding: 13px 0px;
         padding-left: 16px;
         width:42px;
@@ -48,7 +52,7 @@
     {
         overflow: hidden;
     }
-     /* Style navigation menu links */
+
     .topnav a 
     {
         color: white;
@@ -58,19 +62,26 @@
         display: block;
     }
 
+    .topnav #navLinks a:hover {
+        background-color: #ffffff;
+        color: #000;
+    }
+
     /* Hide the links inside the navigation menu (except for logo/home) */
     .topnav #navLinks 
     {
         display: none;
+        padding-top: 60px;
     }
    
     /* Style the hamburger menu */
     .topnav a.icon 
     {
         background: black;
-        float: right;
-        max-height: 50%;
-        display: inline-block;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 10px;
     }
 }
 
@@ -109,6 +120,7 @@
 }
 </style>
 
+
 <link rel="stylesheet" 
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <header>
@@ -123,14 +135,20 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
             {% endfor %}
         </div>
         <a href="javascript:void(0);" class="fa fa-bars icon active" aria-hidden="true" onclick="showDropDown()"></a>
+        
       </div>
 </header>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script>
     function showDropDown() 
     {
         var desktop = window.matchMedia("screen and (min-width: 600px)")
-        if (desktop.matches) { return; }
+        if (desktop.matches) 
+        { 
+            //links.style.display = "inline"
+            return; 
+        }
 
         var links = document.getElementById("navLinks");
 
@@ -142,4 +160,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 
         links.style.display = "block";
     }
+
+    window.addEventListener("resize", showDropDown);
 </script>
