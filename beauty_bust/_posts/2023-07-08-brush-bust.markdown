@@ -6,9 +6,9 @@ categories: beauty
 permalink: /brushbust/
 ---
 
-{:refdef: style="text-align: center;"}
+
 ![Brushes](https://media.istockphoto.com/id/1161219638/photo/beauty-brushes.jpg?s=612x612&w=0&k=20&c=rr_o260EXjTQ_UOqoJRhMKukb6GQp-x2GTpODe4ZE9g=){:width="740px"}
-{: refdef}
+
 
 # Introduction:
 As makeup enthusiasts, we know that the right tools can make all the difference in achieving a flawless, professional look. That's why we've compiled a comprehensive list of the best makeup brushes available in 2023. We've put these brushes to the test, considering factors such as performance, durability, versatility, and value for money. So, without further ado, let's dive into our top picks for the year.

@@ -45,7 +45,7 @@
     }
 
 
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 750px) 
 {
     .topnav
     {
@@ -83,7 +83,7 @@
     }
 }
 
-@media screen and (min-width: 600px) 
+@media screen and (min-width: 750px) 
 {
     .topnav
     {
@@ -141,10 +141,28 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 <script>
     function showDropDown() 
     {
-        var desktop = window.matchMedia("screen and (min-width: 600px)")
-        if (desktop.matches) 
+        var links = document.getElementById("navLinks");
+
+        if (links.style.display === "inline") 
+        {
+            links.style.display = "none";
+            return;
+        } 
+
+        if (links.style.display === "block") 
+        {
+            links.style.display = "none";
+            return;
+        } 
+
+        links.style.display = "block";
+    }
+
+    function reset()
+    {
+        if (window.screen.width >= 750) 
         { 
-            //links.style.display = "inline"
+            links.style.display = "inline"
             return; 
         }
 
@@ -155,9 +173,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
             links.style.display = "none";
             return;
         } 
-
-        links.style.display = "block";
     }
 
-    window.addEventListener("resize", showDropDown);
+    window.addEventListener("resize", reset);
 </script>
