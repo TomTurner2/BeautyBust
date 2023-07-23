@@ -5,11 +5,12 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
-
     .container {
         max-width: 50%;
         margin: auto;
     }
+
+    body { margin: 0; padding: 0; }
 
     main 
     {
@@ -68,15 +69,145 @@
         left: 0.5em;
         margin-right: -50%;
     }
+
+@media only screen and (max-width: 600px) {
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 22px;
+    }
+
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: #292929;
+        color: rgb(255, 255, 255);
+    }
+
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: #000000;
+    }
+
+    .home
+    {
+        background-color: #000000;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .topnav {
+    overflow: hidden;
+    background-color: #000000;
+    position: relative;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav #myLinks {
+        float: right;
+        padding: 16px;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        display: none;
+    }
+
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: #000000;
+        color: rgb(206, 206, 206);
+    }
+
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: #000000;
+    }
+
+    .home
+    {
+        float: left;
+        background-color: #000000;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+    }
+}
 </style>
 
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<header>
+    <div class="topnav">
+        <a href="#home" class="home">Beauty Bust</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            {% for page in site.pages %}
+                {% if page.navbar == true %}
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="fa fa-bars icon active" aria-hidden="true" onclick="myFunction()"></a>
+      </div>
+</header>
+
 <div class="container">
+    
     <main>
         {{content}}
     </main>
     <aside>
         <h3>MORE POSTS</h3>
-        <!-- todo: add three posts here -->
+        {% for post in site.posts %}
+        <!-- todo display these as page tiles -->
+            <li><a href="{{post.url}}">{{post.title}}</a></li>
+        {% endfor %}
     </aside>
 </div>
 
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    } 
+</script>

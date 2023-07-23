@@ -2,6 +2,7 @@
 layout: "page"
 title: Fitness
 permalink: /fitness/
+navbar: true
 ---
 
 <ul>

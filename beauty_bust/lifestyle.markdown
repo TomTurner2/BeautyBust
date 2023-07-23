@@ -2,6 +2,7 @@
 layout: "page"
 title: Lifestyle
 permalink: /lifestyle/
+navbar: true
 ---
 
 <ul>

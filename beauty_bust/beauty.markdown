@@ -2,6 +2,7 @@
 layout: "page"
 title: Beauty
 permalink: /beauty/
+navbar: true
 ---
 
 <ul>

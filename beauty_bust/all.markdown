@@ -2,6 +2,7 @@
 layout: "page"
 title: All
 permalink: /all/
+navbar: true
 ---
 
 <ul>
