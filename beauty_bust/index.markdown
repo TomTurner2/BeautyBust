@@ -13,3 +13,9 @@ carousels:
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
+
+<ul>
+{% for post in site.posts %}
+    <li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endfor %}
+</ul>
