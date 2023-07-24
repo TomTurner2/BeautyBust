@@ -5,6 +5,8 @@ date:   2023-07-08 16:02:50 +0100
 categories: beauty
 permalink: /brushbust/
 image: mary-brush.jpg
+summary: "The best brush of 2023? <br> 
+Find out which is a must and which is a bust!"
 ---
 
 ## Introduction
