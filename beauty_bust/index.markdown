@@ -6,9 +6,9 @@ layout: home
 
 carousels:
   - images: 
-    - image: /assets/img/mary-brush.jpg
-    - image: /assets/img/pigment.jpg
-    - image: /assets/img/marble.jpg
+    - image: /brushbust/
+    - image: /bumblast/
+    - image: /fashionfail/
 ---
 
 <ul>
