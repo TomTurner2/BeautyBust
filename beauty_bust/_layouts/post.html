@@ -4,12 +4,20 @@
 {% include style.html %}
 {% include navbar.html %}
 
+{% if page.image != null %}
 <img src="/assets/img/{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" title="{{ post.title }}" style="max-height: 420px;">
+{% endif %}
 <div class="container">
     <main>
         <h1>{{page.title}}</h1>
+        {% if page.date != null %}
         <h5>{{page.date | date: "%-d %B %Y"}}</h5>
+        {% else %}
+            <h5>❤</h5>
+        {% endif %}
         {{content}}
     </main>
     {% include morePosts.html %}
+    {% include followMe.html %}
+    <div style="Height: 50px;"></div>
 </div>

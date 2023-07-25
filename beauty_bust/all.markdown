@@ -5,13 +5,13 @@ permalink: /all/
 navbar: true
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-      - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-    </li>
+{% include style.html %}
+<h1>All</h1>
+{% include followMe.html %}
+
+
+<div class="grid-container">
+  {% for p in site.posts %}
+      {% include articleCard.html image = p.image title = p.title summary = p.summary url = p.url %}
   {% endfor %}
-</ul>
+</div>

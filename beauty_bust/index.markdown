@@ -72,17 +72,7 @@ carousels:
 </style>
 
 <div class="grid-container">
-{% for post in site.posts %}
-    <div class="grid-item article" style="background-image: url('/assets/img/{{ post.image }}');">
-      <div class = "article-card">
-        <p class = "article-card-title">{{post.title}}</p>
-        <p class = "article-card-summary">{{post.summary}}</p>
-        <a style= "text-decoration: none;" href="{{ post.url }}">
-          <div class="article_button__read_now">
-            <p class="article_read_now" >READ NOW</p>
-          </div>
-        </a>
-      </div>
-    </div>
+{% for p in site.posts %}
+    {% include articleCard.html image = p.image title = p.title summary = p.summary url = p.url %}
 {% endfor %}
 </div>

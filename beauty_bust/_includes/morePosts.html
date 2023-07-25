@@ -1,7 +1,10 @@
 <aside>
     <h5>MORE POSTS</h5>
-    {% for post in site.posts %}
-        <!-- todo display these as page tiles -->
-        <li><a href="{{post.url}}">{{post.title}}</a></li>
-    {% endfor %}
+    <div class="grid-container">
+        {% for p in site.posts %}
+            {% if forloop.rindex <= 3 %}
+                {% include articleCard.html image = p.image title = p.title summary = p.summary url = p.url %}
+            {% endif %}
+        {% endfor %}
+        </div>
 </aside>
