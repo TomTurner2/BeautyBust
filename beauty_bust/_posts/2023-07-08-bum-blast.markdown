@@ -4,7 +4,7 @@ title:  "Bum Blast Routine"
 date:   2023-07-08 16:02:50 +0100
 categories: fitness
 permalink: /bumblast/
-image: marble.jpg
+image: exercise.jpg
 
 summary: "Flat Ass? <br> 
 Get those glutes burning!"
