@@ -9,6 +9,13 @@
         padding-top: 0;
     }
 
+    .container-home {
+        max-width: 60%;
+        margin: auto;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
     img {
         object-fit: cover;
         display: block;
@@ -84,4 +91,25 @@
         left: 0.5em;
         margin-right: -50%;
     }
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, 360px);
+  padding-top: 30px;
+  padding-bottom: 50px;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+  height: 360px;
+  width: 360px;
+}
 </style>
