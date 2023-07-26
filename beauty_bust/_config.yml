@@ -28,8 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 insta_username: thebeautybust
-linkedin_username: https://uk.linkedin.com/
-
+linkedin_username: virginia-turner-301220246
 
 # Build settings
 theme: minima
