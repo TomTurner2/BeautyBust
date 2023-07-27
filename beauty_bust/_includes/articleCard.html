@@ -1,8 +1,5 @@
 <style> 
-    .article
-    {
-      background-position: 25% 75%;
-    }
+
     
     .article-card
     {
@@ -57,7 +54,7 @@
     
     </style>
    
-    <div class="grid-item article" style="background-image: url('/assets/img/{{ include.image }}');">
+    <div class="grid-item " style="background-image: url('/assets/img/{{ include.image }}');  background-position: {{ include.x }} {{ include.y }};">
         <div class = "article-card">
         <p class = "article-card-title">{{include.title}}</p>
         <p class = "article-card-summary">{{include.summary}}</p>

@@ -8,6 +8,8 @@ permalink: "/weddingsoftheyearcourthouse/"
 categories:
 - lifestyle
 image: wedding-courthouse-card.jpg
+imgX: 50%
+imgY: 50%
 ---
 
 An abundance of white lace and flowing veils. Buttery soft petals from blooming bouquets. Dozens of rounded tables covered in thick white tablecloths that wrap around them like marzipan. People in silk dresses and black bow ties flit about country estates or mansions nestled on the coasts of Italy. Anticipation buzzes in the air for the words, ‘I do.’ 
@@ -46,7 +48,7 @@ Another bonus of this new trend is that it saves you money (ideal if you want to
 I’ve made a Pinterest board for mine already.
 
 
-<div class = "grid-container" style="grid-template-columns: repeat(auto-fit, 500px); gap=20px;">
+<div class = "grid-container" style="grid-template-columns: repeat(auto-fit, 500px); gap: 23px;">
 {% include captionImage.html width="100%" height= "100%"  src="/assets/img/wedding-001.png" %} 
 {% include captionImage.html width="100%" height= "100%"  src="/assets/img/wedding-002.jpg" %}
 </div>

@@ -5,7 +5,8 @@ date:   2023-07-08 16:02:50 +0100
 categories: fitness
 permalink: /bumblast/
 image: exercise.jpg
-
+imgX: 50%
+imgY: 75%
 summary: "Flat Ass? <br> 
 Get those glutes burning!"
 ---
