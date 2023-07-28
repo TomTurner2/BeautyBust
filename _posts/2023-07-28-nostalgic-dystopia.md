@@ -3,13 +3,13 @@ layout: post
 title: Nostalgic Dystopia
 date: 2023-07-28 11:36
 categories: entertainment
-permalink: /nostalgicdystopia/
+permalink: /nostalgia/
 image: dystopia.jpg
 summary: "An essay on nostalgia and <br> companionship in dystopian settings"
 imgX: 83%
 imgY: 50%
 imgScaleX: cover
-columns: false
+id: dystopia-001
 ---
 
 

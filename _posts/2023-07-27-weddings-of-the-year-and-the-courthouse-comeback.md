@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-27 11:16:06'
 summary: The hit weddings of the year and the <br> newest trend of chic courthouse
   weddings
-permalink: "/weddingsoftheyearcourthouse/"
+permalink: /wedding-of-year/
 categories:
 - fashion
 image: wedding-card.jpg
@@ -12,6 +12,7 @@ imgX: 40%
 imgY: 50%
 imgScaleX: auto
 imgScaleY: 100%
+id: wedding-001
 ---
 
 An abundance of white lace and flowing veils. Buttery soft petals from blooming bouquets. Dozens of rounded tables covered in thick white tablecloths that wrap around them like marzipan. People in silk dresses and black bow ties flit about country estates or mansions nestled on the coasts of Italy. Anticipation buzzes in the air for the words, ‘I do.’ 
@@ -29,19 +30,19 @@ The drama didn’t stop there, though. Don’t Tell the Bride was another iconic
 Despite the popularity of these shows at the time, there has been a distinct shift in the wedding culture of recent years. Gone are the spectacles of tacky and garish dresses, along with the anticipated drama that seems unavoidable with these kinds of events. No, the wedding of today is a timeless, elegant affair that, at all costs, avoids the embarrassment of drama. Just because these modern weddings might lack the tantalising conflict that Don’t Tell the Bride and Say Yes to the Dress epitomised, doesn’t mean we are any less hooked on them. Instead of drama, we have a new obsession: aesthetic. We don’t care if the weddings of today are lacking meltdowns over outfits and venues, as long as we have the beautiful, classy aesthetic of the traditional wedding. 
 Enter Sofia Richie. Dubbed by Vogue as the “royal wedding” of the year, Sofia married Elliot Grainge at the Hotel du Cap-Eden-Roc in Antibes, France, this April. It was not a small wedding. Why should it be? Daughter to legendary singer Lionel Richie, Sofia is a celebrity in her own right with 10.4 million Instagram followers and the beauty director of cosmetics company Nudestix. The guest list, therefore, included a range of celebs like the OG celebrity princess Paris Hilton, best known for her iconic reality TV show The Simple Life which also starred Nicole, Sofia’s sister, who was, of course, also in attendance at the wedding. Cameron Diaz, TikTok star Jake Shane, and even the Princess Olympia of Greece are just a few more names from the star-studded guest list – a royal wedding indeed! 
 
-{% include captionImage.html width="500px" height="760px" src="/assets/img/sofia-wedding.jpg" caption="Sofia, pictured here in one of three custom Chanel <br> gowns made for her." %}
+{% include captionImage.html width="500px" height="760px" src="sofia-wedding.jpg" caption="Sofia, pictured here in one of three custom Chanel <br> gowns made for her." %}
 
 The obsession with Sofia’s wedding swept the internet. On TikTok, the hastags #sofiarichiewedding and #sophiarichiewedding culminated 30.7 million views. For reference, that’s almost three times the population of Greece and approximately just under half the population of the UK. On Sofia’s Instagram account (@sofiarichiegrainge) the three pinned posts at the top of her page, a collection of photos taken from the wedding, all have over a million likes. It’s no wonder that Sofia’s wedding was such a pop culture sensation with A-list attendees and performances by musical icons like Lionel Richie himself and Stephen Sanchez, who sung a live rendition of ‘Until I Found You’, a romantic ballad that’s hashtag has over 1.4 billion views on TikTok. It was a wedding for the books, and one we were all invited to in a way, through the unfolding social media posts that dominated the month of April. 
 
 Another hit wedding from this year was the union of Made in Chelsea stars Sophie Habboo and Jamie Laing. They got hitched in a beautiful service in sunny Seville that emulated the classy, old money vibes of a traditional Italian wedding, from the dress to the photography. The dress itself was a sleek silhouette, perfectly complimenting Sophie’s slender frame, and stitched in lace over the bodice, skirt, exposed back detail, and even the long sleeves, a wedding trend from the early 1900s that Sophie had modernised for her bridal outfit. Her veil added to the overall conservative yet romantic look, simple and unembellished, yet adding a flair of elegance and drama with its extended length. In other words, her bridal look was both traditional and chic, elegant and timeless. 
 But her traditional wedding look wasn’t the only element that Sophie re-modernised for her wedding. Just before their nuptials in Seville, the couple decided to officially tie the knot in a small ceremony with close friends and family in a Chelsea registry office. This intimate courthouse wedding is another example of how the couple took a traditional, often no-frills approach, of a courthouse ceremony and adapted it to fit their personal style. Often a dressed down and less exciting affair, Jamie and Sophie reinvigorated the event with chic, modern clothing choices, whilst keeping it traditional with the registry office location and  black-and-white photography. 
 
-{% include captionImage.html width="500px" height="760px"  src="/assets/img/wedding-bw-001.png" %}
+{% include captionImage.html width="500px" height="760px"  src="wedding-bw-001.png" %}
 
 Unlike her Seville bridal look, Sophie’s choice of gown in Chelsea was a trendy white Vivienne Westwood mini dress, with an off the shoulder neckline, fitted bodice, and high-low hemline that shortened in the front and lengthened in the back. She paired this with an adorable baby veil from Gigi & Olive that stopped just around her shoulders and sported a white ribbon atop her head. Footwear was pointed, court stilettos from Jimmy Choo with a white satin finish and an ankle strap embellished with crystals – retailing at £875 from Selfridges. To finish off the look, Sophie held a small white clutch bag from Sophia Webster - a British fashion label that launched in 2012, of which I have a particular obsession with their butterfly-design heels. This small little purse is perhaps my favourite detail of the look, adding to the trendy style with its sharp box shape that contrasts against the glittering gold embellishment that spells out ‘Wifey For Lifey’. Slay.  
 I could talk about this look forever. It’s the perfect mix of tradition and trendiness. We have the classy, timeless elements that come from keeping the white gown and veil, the courthouse setting, and using staple designers like Vivienne Westwood and Jimmy choo. However, Sophie breathes new life into her look by incorporating modern short hemlines, a glittering clutch bag, and even donning sunglasses to mirror her husband who wore a black Thom Sweeney suit and matching black sunglasses. The photos of the ceremony, available on both of their Instagram pages (@jamielaing & @sophiehabboo), epitomise the fusion of tradition and modernity, showcasing their modern looks in classic black-and-white film. 
 
-{% include captionImage.html width="500px" height="760px" src="/assets/img/wedding-bw-002.png" %} 
+{% include captionImage.html width="500px" height="760px" src="wedding-bw-002.png" %} 
 
 Sophie and Jamie aren’t the only ones that have gone for this idea, though. Anastazia, a popular content creator with over a million TikTok followers (@stazzylicious), followed this new trend in her engagement photos. Donning a House of CB mini dress and keeping her hair down with a large white ribbon to fasten half of it back, Anastasia’s engagement photoshoot showcased all the modern bridal trends. She simultaneously kept the classy traditional vibe by wearing Christian Louboutin wedding heels and being photographed both around and inside of a classic convertible car. 
 It seems, therefore, that the courthouse wedding has come back with a fury. Indeed, registry office weddings are becoming more and more popular in the UK, even the hashtag #courthousewedding has over 74 million views on TikTok. And they all seem to embody this idea of combining the tradition of a courthouse wedding with modern trends. Looking through the various photos and videos that have been posted on social media, TikTok and Pinterest are the goldmine platforms here, there is a recurring theme of white mini dresses, stylish stilettos and jewellery, and, the crowning jewel, a pair of statement sunglasses. The chicness of this trend is often emphasised by editorial-like photography. 
@@ -51,6 +52,6 @@ I’ve made a Pinterest board for mine already.
 
 
 <div class = "grid-container" style="grid-template-columns: repeat(auto-fit, 500px); gap: 23px;">
-{% include captionImage.html width="100%" height= "100%"  src="/assets/img/wedding-001.png" %} 
-{% include captionImage.html width="100%" height= "100%"  src="/assets/img/wedding-002.jpg" %}
+{% include captionImage.html width="100%" height= "100%"  src="wedding-001.png" %} 
+{% include captionImage.html width="100%" height= "100%"  src="wedding-002.jpg" %}
 </div>

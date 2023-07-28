@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About
+title: {{site.baseurl}}About
 date: null
 permalink: /about/
 image: "ginny.jpg"

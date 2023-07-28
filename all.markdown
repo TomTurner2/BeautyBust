@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: All
-permalink: /all/
+permalink: /All/
 navbar: true
 ---
 

@@ -56,11 +56,11 @@
     
     </style>
    
-    <div class="grid-item " style="background-image: url('/assets/img/{{ include.image }}');  background-position: {{ include.x }} {{ include.y }}; background-size: {{ include.scaleX }} {{ include.scaleY }}; background-repeat: no-repeat;">
+    <div class="grid-item " style="background-image: url('{{site.url}}{{site.baseurl}}{{site.image-path}}{{ include.image }}');  background-position: {{ include.x }} {{ include.y }}; background-size: {{ include.scaleX }} {{ include.scaleY }}; background-repeat: no-repeat;">
         <div class = "article-card">
         <p class = "article-card-title">{{include.title}}</p>
         <p class = "article-card-summary">{{include.summary}}</p>
-        <a style= "text-decoration: none;" href="{{ include.url }}">
+        <a style= "text-decoration: none;" href="{{ include.url | prepend: site.baseurl }}">
             <div class="article_button__read_now">
             <p class="article_read_now" >READ NOW</p>
             </div>
