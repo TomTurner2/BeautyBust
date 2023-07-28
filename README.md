@@ -1,2 +1,2 @@
 # BeautyBust
- A beauty blog made for my little sister to post her writing.
+ A Jekyll beauty blog for my little sister to post her writing.
