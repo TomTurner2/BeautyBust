@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: Beauty
-permalink: /beauty/
+permalink: /BeautyBust/beauty/
 navbar: true
 ---
 
