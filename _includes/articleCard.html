@@ -60,7 +60,7 @@
         <div class = "article-card">
         <p class = "article-card-title">{{include.title}}</p>
         <p class = "article-card-summary">{{include.summary}}</p>
-        <a style= "text-decoration: none;" href="{{ include.url }}">
+        <a style= "text-decoration: none;" href="{{ include.url | prepend: site.baseurl }}">
             <div class="article_button__read_now">
             <p class="article_read_now" >READ NOW</p>
             </div>

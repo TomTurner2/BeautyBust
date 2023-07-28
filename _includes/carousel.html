@@ -30,11 +30,11 @@
               {% for item in page.carousels[number].images %}
                 {% for p in site.posts %}
                     {% if p.permalink == item.image %}
-                      <li class="carousel__slide" style="background-image: url('./assets/img/{{ p.image }}');">
+                      <li class="carousel__slide" style="background-image: url('./assets/img/{{ p.image | prepend: site.baseurl }}');">
                         <div class="card">
                           <p class="card__title">{{ p.title }}</p>
                           <p class="card__summary">{{ p.summary }}</p>
-                          <a href="{{ p.url }}">
+                          <a href="{{ p.url | prepend: site.baseurl }}">
                             <div class="button__read_now">
                               <p class="read_now" >READ NOW</p>
                             </div>
