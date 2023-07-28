@@ -8,7 +8,7 @@ carousels:
   - images: 
     - image: /weddingsoftheyearcourthouse/
     - image: /capsulewardrobe/
-    - image: /fashionfail/
+    - image: /nostalgicdystopia/
 ---
 
 <style> 

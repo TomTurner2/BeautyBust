@@ -6,7 +6,7 @@ summary: The hit weddings of the year and the <br> newest trend of chic courthou
   weddings
 permalink: "/weddingsoftheyearcourthouse/"
 categories:
-- lifestyle
+- fashion
 image: wedding-card.jpg
 imgX: 40%
 imgY: 50%

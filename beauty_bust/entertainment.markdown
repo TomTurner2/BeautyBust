@@ -1,7 +1,7 @@
 ---
 layout: "page"
-title: Fitness
-permalink: /fitness/
+title: Entertainment
+permalink: /entertainment/
 navbar: true
 ---
 
@@ -11,7 +11,7 @@ navbar: true
 
 
 <div class="grid-container">
-{% for p in site.categories["fitness"] %}
+{% for p in site.categories["entertainment"] %}
     {% include articleCard.html image = p.image title = p.title summary = p.summary url = p.url x=p.imgX y=p.imgY scaleX= p.imgScaleX scaleY= p.imgScaleY%}
 {% endfor %}
 </div>
