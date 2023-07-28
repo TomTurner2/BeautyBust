@@ -6,7 +6,7 @@ navbar: true
 ---
 
 {% include style.html %}
-<h1>Fitness</h1>
+<h1>Entertainment</h1>
 {% include followMe.html %}
 
 
