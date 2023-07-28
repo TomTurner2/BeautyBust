@@ -1,8 +1,8 @@
 ---
 layout: post
-title: About
+title: {{site.baseurl}}About
 date: null
-permalink: BeautyBust/about/
+permalink: /about/
 image: "ginny.jpg"
 navbar: true
 ---
