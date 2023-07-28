@@ -4,7 +4,7 @@ title:  "Create A Capsule Wardrobe"
 date:   2023-07-08 16:02:50 +0100
 categories: lifestyle
 permalink: /capsule-wardrobe/
-image: pigment.jpg
+image: wardrobe.jpg
 summary: "Build a stylish, minimalist wardrobe."
 imgX: 50%
 imgY: 50%
