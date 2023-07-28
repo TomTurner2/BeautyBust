@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-27 11:16:06'
 summary: The hit weddings of the year and the <br> newest trend of chic courthouse
   weddings
-permalink: "/weddingsoftheyearcourthouse/"
+
 categories:
 - fashion
 image: wedding-card.jpg

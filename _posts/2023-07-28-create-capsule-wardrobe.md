@@ -3,7 +3,7 @@ layout: post
 title:  "Create A Capsule Wardrobe"
 date:   2023-07-08 16:02:50 +0100
 categories: lifestyle
-permalink: /capsulewardrobe/
+
 image: pigment.jpg
 summary: "Build a stylish, minimalist wardrobe."
 imgX: 50%
