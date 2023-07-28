@@ -9,6 +9,7 @@ summary: "Must or Bust?
 <br> We rank the Mets fashion fails"
 imgX: 50%
 imgY: 50%
+imgScaleX: cover
 ---
 
 ## Introduction

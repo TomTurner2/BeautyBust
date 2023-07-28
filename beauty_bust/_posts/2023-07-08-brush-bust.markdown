@@ -9,6 +9,8 @@ summary: "The best brush of 2023? <br>
 Find out which is a must and which is a bust!"
 imgX: 70%
 imgY: 50%
+imgScaleX: cover
+
 ---
 
 ## Introduction

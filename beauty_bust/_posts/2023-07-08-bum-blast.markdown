@@ -9,6 +9,8 @@ imgX: 50%
 imgY: 75%
 summary: "Flat Ass? <br> 
 Get those glutes burning!"
+imgScaleX: 
+
 ---
 
 {% include youtube.html src="https://www.youtube.com/embed/yV7fDgNlYKM"%}

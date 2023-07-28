@@ -7,9 +7,11 @@ summary: The hit weddings of the year and the <br> newest trend of chic courthou
 permalink: "/weddingsoftheyearcourthouse/"
 categories:
 - lifestyle
-image: wedding-courthouse-card.jpg
-imgX: 50%
+image: wedding-card.jpg
+imgX: 40%
 imgY: 50%
+imgScaleX: auto
+imgScaleY: 100%
 ---
 
 An abundance of white lace and flowing veils. Buttery soft petals from blooming bouquets. Dozens of rounded tables covered in thick white tablecloths that wrap around them like marzipan. People in silk dresses and black bow ties flit about country estates or mansions nestled on the coasts of Italy. Anticipation buzzes in the air for the words, ‘I do.’ 
