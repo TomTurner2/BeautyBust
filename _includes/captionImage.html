@@ -31,7 +31,7 @@
 </style>
 
 <div class="caption-container" style="width: {{ include.width }}; height: {{ include.height }};">
-    <img class="caption-img" src="{{include.src}}" >
+    <img class="caption-img" src="{{site.url}}{{site.baseurl}}{{site.image-path}}{{include.src}}" >
     <p class="caption">
         {% if include.caption %}
         <i>{{include.caption}}</i>

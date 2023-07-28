@@ -2,7 +2,7 @@
 layout: post
 title: About
 date: null
-permalink: /about/
+permalink: BeautyBust/about/
 image: "ginny.jpg"
 navbar: true
 ---
