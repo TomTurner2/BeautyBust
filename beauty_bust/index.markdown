@@ -6,8 +6,8 @@ layout: home
 
 carousels:
   - images: 
-    - image: /brushbust/
-    - image: /bumblast/
+    - image: /weddingsoftheyearcourthouse/
+    - image: /capsulewardrobe/
     - image: /fashionfail/
 ---
 
