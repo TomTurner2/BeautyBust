@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: Entertainment
-permalink: /BeautyBust/entertainment/
+permalink: /entertainment/
 navbar: true
 ---
 
