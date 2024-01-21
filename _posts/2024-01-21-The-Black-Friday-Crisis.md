@@ -5,6 +5,9 @@ date:   2024-01-21 17:08:50 +0100
 categories: fashion
 permalink: /black-friday/
 image: Black-Friday.png
+imgX: 50%
+imgY: 50%
+imgScaleX: cover
 summary: "The devastating effects behind the world's largest sale."
 id: blackfriday-001
 ---
