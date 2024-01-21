@@ -2,7 +2,7 @@
 layout: post
 title:  "Create A Capsule Wardrobe"
 date:   2023-07-08 16:02:50 +0100
-categories: lifestyle
+categories: fashion
 permalink: /capsule-wardrobe/
 image: wardrobe.jpg
 summary: "Build a stylish, minimalist wardrobe."
