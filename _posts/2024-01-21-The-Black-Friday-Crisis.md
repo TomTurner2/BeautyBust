@@ -7,7 +7,8 @@ permalink: /black-friday/
 image: Black-Friday.png
 imgX: 50%
 imgY: 50%
-imgScaleX: cover
+imgScaleX: auto
+imgScaleY: 100%
 summary: "The devastating effects behind the world's largest sale."
 id: blackfriday-001
 ---
